@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> 
+#include <string.h>
 #include "definitions.h"
 
 void initializeGrid(int **grid, int x, int y, int value)
@@ -103,8 +103,8 @@ void rotate270(int **grid, int x, int y)
 
 void rotate180(int **grid, int x, int y)
 {
-	yAxisFlip(grid, x, y);
 	xAxisFlip(grid, x, y);
+	yAxisFlip(grid, x, y);
 }
 
 void rotate90(int **grid, int x, int y)
