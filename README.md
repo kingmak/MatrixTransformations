@@ -1,5 +1,5 @@
-## matrix_transformations
-matrix rotations and transformations
+## MatrixTransformations
+A visual representatio of the following Matrix rotations and transformations:
 
 -x axis flip <br>
 -y aixs flip <br>
