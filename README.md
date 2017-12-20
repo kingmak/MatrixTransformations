@@ -5,7 +5,7 @@ A visual representation of the following Matrix rotations and transformations:
 -y aixs flip <br>
 -rotate 90 degrees <br>
 -rotate 180 degrees <br>
--rotate 270 degrees <br><br>
+-rotate 270 degrees <br>
 
 A screen shot:
 
