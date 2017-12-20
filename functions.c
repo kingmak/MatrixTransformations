@@ -69,7 +69,7 @@ void swap(int** grid, int x1, int y1, int x2, int y2)
 	grid[x2][y2] = temp;
 }
 
-void xAxisFlip(int **grid, int x, int y)
+void yAxisFlip(int **grid, int x, int y)
 {
 	int i, j;
 
@@ -82,7 +82,7 @@ void xAxisFlip(int **grid, int x, int y)
 	}
 }
 
-void yAxisFlip(int **grid, int x, int y)
+void xAxisFlip(int **grid, int x, int y)
 {
 	int i, j;
 
@@ -103,8 +103,8 @@ void rotate270(int **grid, int x, int y)
 
 void rotate180(int **grid, int x, int y)
 {
-	xAxisFlip(grid, x, y);
 	yAxisFlip(grid, x, y);
+	xAxisFlip(grid, x, y);
 }
 
 void rotate90(int **grid, int x, int y)

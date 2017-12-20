@@ -15,13 +15,13 @@ int main()
 	int x = 3, y = 3, value = 1;
 
 	setupGrid(&grid, x, y);
-	initializeGrid(grid, x, y, value);	
+	initializeGrid(grid, x, y, value);
 	populateGrid(grid, x, y);
 
 	printf("3 x 3 Grid Setup\n\n");
 	printGrid(grid, x, y);
 
-	printf("\nx axis flip\n\n");	
+	printf("\nx axis flip\n\n");
 	xAxisFlip(grid, x, y);
 	printGrid(grid, x, y);
 
