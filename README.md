@@ -8,6 +8,7 @@ A visual representation of the following Matrix rotations and transformations:
 -rotate 270 degrees <br><br>
 
 A screen shot:
+
 ![windows screenshot](https://github.com/kingmak/MatrixTransformations/blob/master/Screenshot.png)
 
 commands: <br>
